@@ -6,6 +6,3 @@ pillow
 pyyaml
 einops
 tqdm
-
-# YOLO11 detection only
-ultralytics>=8.4

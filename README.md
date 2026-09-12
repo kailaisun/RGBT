@@ -48,13 +48,15 @@ self-contained `infer.py`.
 
 | Task | Method | Folder | Weights (Hugging Face) | Headline metric |
 |---|---|---|---|---|
-| Infrared person-state detection (4 states) | YOLO11s | [`yolo11/`](yolo11) | `yolo11/weights/best.pt` | mAP50 0.789 / mAP50-95 0.505 |
 | Infrared person counting | ResNet18 | [`resnet18/`](resnet18) | `resnet18/weights/best.pt` | accuracy 0.8165 / macro-F1 0.8048 |
 | RGB to thermal field | U-Net | [`unet_rgb2t/`](unet_rgb2t) | `unet_rgb2t/weights/checkpoint.pt` | MAE 0.654 C / R2 0.923 |
 | Infrared to RGB | BBDM | [`bbdm_ir2rgb/`](bbdm_ir2rgb) | `bbdm_ir2rgb/weights/last_model.pth` | PSNR 19.47 / SSIM 0.797 / FID 20.39 |
 
-Only the thermal-infrared image is used as input for the detection and
-counting models; RGB is never fed to them.
+Only the thermal-infrared image is used as input for the counting model; RGB is
+never fed to it.
+
+The infrared **person-state detection** model (4 states: lie / sit / other /
+off_bed) is **coming soon**.
 
 ### Download the weights
 
@@ -66,8 +68,6 @@ hf download skl24/RGBT --local-dir checkpoints
 ### Run inference
 
 ```shell
-# 4-state person detection
-python yolo11/infer.py    --weights checkpoints/yolo11/weights/best.pt             --source ir.png
 # person counting
 python resnet18/infer.py  --weights checkpoints/resnet18/weights/best.pt           --source ir.png
 # RGB -> thermal field
