@@ -48,9 +48,9 @@ self-contained `infer.py`.
 
 | Task | Method | Folder | Weights (Hugging Face) | Headline metric |
 |---|---|---|---|---|
-| Infrared person counting | ResNet18 | [`resnet18/`](resnet18) | `resnet18/weights/best.pt` | accuracy 0.8165 / macro-F1 0.8048 |
-| RGB to thermal field | U-Net | [`unet_rgb2t/`](unet_rgb2t) | `unet_rgb2t/weights/checkpoint.pt` | MAE 0.654 C / R2 0.923 |
-| Infrared to RGB | BBDM | [`bbdm_ir2rgb/`](bbdm_ir2rgb) | `bbdm_ir2rgb/weights/last_model.pth` | PSNR 19.47 / SSIM 0.797 / FID 20.39 |
+| Infrared person counting | ResNet18 | [`resnet18/`](resnet18) | `resnet18/weights/best.pt` | accuracy  / macro-F1 |
+| RGB to thermal field | U-Net | [`unet_rgb2t/`](unet_rgb2t) | `unet_rgb2t/weights/checkpoint.pt` | MAE  / R2  |
+| Infrared to RGB | BBDM | [`bbdm_ir2rgb/`](bbdm_ir2rgb) | `bbdm_ir2rgb/weights/last_model.pth` | PSNR  / SSIM  / FID |
 
 Only the thermal-infrared image is used as input for the counting model; RGB is
 never fed to it.
