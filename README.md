@@ -30,7 +30,7 @@ Some examples:
 
 <img src="fig/modality_grid.jpg" width="90%">
 
-We publish a few thermal images and annotations on Hugging Face.
+We publish part of the thermal images and annotations on [Hugging Face](https://huggingface.co/skl24/RGBT).
 
 
 
