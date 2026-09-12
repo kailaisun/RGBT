@@ -1,8 +1,0 @@
-# Core (U-Net, ResNet18, BBDM)
-torch>=2.0
-torchvision>=0.15
-numpy
-pillow
-pyyaml
-einops
-tqdm
