@@ -5,8 +5,10 @@
 The code implementation for the paper:Towards Privacy-Preserving Thermal Human Perception from Dataset to Deployment.
 
 
-<img src="fig1.png" width="90%">
+<img src="fig/modality_grid.jpg" width="90%">
 
+
+<img src="fig/figdeploy.png" width="90%">
 
 ## Installation
 
