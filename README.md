@@ -5,15 +5,14 @@
 The code implementation for the paper:Towards Privacy-Preserving Thermal Human Perception from Dataset to Deployment.
 
 
-<img src="fig/modality_grid.jpg" width="90%">
-
-
-<img src="fig/figdeploy.png" width="90%">
-
 ## Installation
 
 Download or clone the repository.
 
+```shell
+git clone https://github.com/kailaisun/RGBT.git
+cd RGBT
+```
 
 
 ### Environment Installation 
@@ -21,9 +20,22 @@ We recommend using Conda ([Miniconda](https://docs.conda.io/projects/miniconda/e
 
 
 
+#### Dataset summary
+
+Some examples:
+
+<img src="fig/modality_grid.jpg" width="90%">
+
+We public a few thermal images and annotations
 
 
-#### Dataset Download
+<img src="fig/figdeploy.png" width="90%">
+
+
+
+
+
+
 
 
 
