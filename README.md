@@ -22,29 +22,27 @@ We recommend using Conda ([Miniconda](https://docs.conda.io/projects/miniconda/e
 
 #### Dataset summary
 
+
+<img src="fig/data.png" width="90%">
+
+
 Some examples:
 
 <img src="fig/modality_grid.jpg" width="90%">
 
-We public a few thermal images and annotations
+We publish a few thermal images and annotations on Hugging Face.
 
+
+
+#### Deployment
 
 <img src="fig/figdeploy.png" width="90%">
 
 
 
-
-
-
-
-
-
-
-
-
 ## Model Training
 
-We have released our [SENSE model checkpoints](https://huggingface.co/skl24/SENSE). You can use it without the steps below.
+We have released our [model checkpoints](https://huggingface.co/skl24/RGBT). You can use it without retraining.
 
 
 ## Citation
